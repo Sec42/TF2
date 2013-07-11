@@ -1,0 +1,13 @@
+This is a cgi to check steam IDs vs. the UGC database to see 
+which teams they play(ed) in. Intended use is to check for mercs
+on the opposing team quickly before a match.
+
+It supports pasting "status" output, or fetching it via rcon
+if you supply server/password.
+
+You will need the folloing non-standard perl modules :
+- Rcon::HL2 from CPAN
+- GET from <https://github.com/Sec42/Scripts/tree/master/GET>
+
+Have fun,
+  Sec
